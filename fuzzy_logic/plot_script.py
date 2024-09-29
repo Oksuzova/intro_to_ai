@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 
 
 def plot_graphs(x, graphs, xlabel='x', ylabel='y'):
-    plt.figure(figsize=(10, 6))
+    # plt.figure(figsize=(10, 6))
 
     plt.axhline(0, color='black', linewidth=0.8)
     plt.axvline(0, color='black', linewidth=0.8)
@@ -14,20 +14,17 @@ def plot_graphs(x, graphs, xlabel='x', ylabel='y'):
         linestyle = graph["linestyle"]
 
         plt.plot(x, y, label=label, color=color, linestyle=linestyle)
+        plt.legend()
+        plt.grid(True)
 
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
-    plt.legend()
-    plt.grid(True)
 
 
 def subplot_graphs(x, graphs, xlabel='x', ylabel='y'):
     plt.figure(figsize=(10, 6))
     
     fig, axs = plt.subplots(len(graphs))
-    
-    axs[0].plot(x, graphs[0])
-    axs[1].plot(x, -y)
 
     for i, function in enumerate(graphs):
         y = function['y']
@@ -35,12 +32,10 @@ def subplot_graphs(x, graphs, xlabel='x', ylabel='y'):
         color = function["color"]
         linestyle = function["linestyle"]
 
-        axs[i].plot(x, y, label=label, color=color, linestyle=linestyle])
+        axs[i].plot(x, y, label=label, color=color, linestyle=linestyle)
+        axs[i].set_title(label)
+        axs[i].set(xlabel=xlabel, ylabel=ylabel)
 
-    plt.xlabel(xlabel)
-    plt.ylabel(ylabel)
-    plt.legend()
-    plt.grid(True)
 
 
 def add_vertical_line(x_vert, color='Red', linestyle='--', label='x'):
