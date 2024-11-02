@@ -25,7 +25,7 @@ def plot_graphs(x, graphs, xlabel='x', ylabel='y'):
 
 def subplot_graphs(x, graphs, xlabel='x', ylabel='y'):
     plt.figure(figsize=(10, 6))
-    
+
     fig, axs = plt.subplots(len(graphs))
 
     for i, function in enumerate(graphs):
@@ -37,7 +37,6 @@ def subplot_graphs(x, graphs, xlabel='x', ylabel='y'):
         axs[i].plot(x, y, label=label, color=color, linestyle=linestyle)
         axs[i].set_title(label)
         axs[i].set(xlabel=xlabel, ylabel=ylabel)
-
 
 
 def add_vertical_line(x_vert, color='Red', linestyle='--', label='x'):
@@ -53,11 +52,13 @@ def create_graph(x, function, label, xlabel, ylabel, color="SeaGreen", linestyle
     plt.legend()
     plt.show()
 
+
 # Set colors for clusters
 RED = '#96242c'
 YELLOW = '#bfb02a'
 GREEN = '#218f4b'
 COLORS = [RED, YELLOW, GREEN]
+
 
 # Map colors to clusters based on their centers
 def get_cluster_colors(cluster_centers: np.ndarray, colors: list) -> list:
