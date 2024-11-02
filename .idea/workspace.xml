@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d2fb671e-1bac-4fe1-9d8b-a10086840976" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fuzzy_logic/Solving the practical task of clustering by methods of fuzzy logic.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy_logic/forming_fuzzy_sets_and_operations_on_them.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy_logic/forming_fuzzy_sets_and_operations_on_them.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fuzzy_logic/plot_script.py" beforeDir="false" afterPath="$PROJECT_DIR$/fuzzy_logic/plot_script.py" afterDir="false" />
-    </list>
+    <list default="true" id="d2fb671e-1bac-4fe1-9d8b-a10086840976" name="Changes" comment="add fuzzy c-means algorithm" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -25,31 +20,31 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2oJO5JusM03XzVV689UUJyCXS8Z" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Tanya/Desktop/КПІ/5 semestr/AI/intro_to_ai",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Tanya/Desktop/КПІ/5 semestr/AI/intro_to_ai&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -66,10 +61,60 @@
       <option name="presentableId" value="Default" />
       <updated>1730584027461</updated>
       <workItem from="1730584028503" duration="1720000" />
+      <workItem from="1730589153419" duration="509000" />
     </task>
+    <task id="LOCAL-00001" summary="add fuzzy c-means algorithm">
+      <option name="closed" value="true" />
+      <created>1730589416288</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1730589416288</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add fuzzy c-means algorithm">
+      <option name="closed" value="true" />
+      <created>1730589478787</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1730589478787</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Revert &quot;add fuzzy c-means algorithm&quot;&#10;&#10;This reverts commit 3e10207b">
+      <option name="closed" value="true" />
+      <created>1730589499460</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1730589499460</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add fuzzy c-means algorithm">
+      <option name="closed" value="true" />
+      <created>1730589524330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1730589524330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Revert &quot;add fuzzy c-means algorithm&quot;&#10;&#10;This reverts commit 3e10207b" />
+    <MESSAGE value="add fuzzy c-means algorithm" />
+    <option name="LAST_COMMIT_MESSAGE" value="add fuzzy c-means algorithm" />
   </component>
 </project>
